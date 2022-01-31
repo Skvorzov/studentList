@@ -17,9 +17,9 @@ public class MainController {
     public String home(Model model) {
         model.addAttribute("title", "Главная страница");
         return """
-                Use https://wtf-project.herokuapp.com/ping to get pong
-                Use https://wtf-project.herokuapp.com/create-random-student to create random student
-                Use https://wtf-project.herokuapp.com/students to show all students""";
+                Use https://student-listt.herokuapp.com/ping to get pong\n
+                Use https://student-listt.herokuapp.com/create-random-student to create random student\n
+                Use https://student-listt.herokuapp.com/students to show all students""";
     }
 
     @GetMapping("/ping")
